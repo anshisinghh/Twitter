@@ -35,7 +35,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yGD-Lx-UTr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="KeE-AD-FNe" firstAttribute="centerY" secondItem="fpq-aG-Cwm" secondAttribute="centerY" id="3dl-0N-Xj8"/>
                             <constraint firstItem="KeE-AD-FNe" firstAttribute="centerX" secondItem="fpq-aG-Cwm" secondAttribute="centerX" id="XEL-1P-EUy"/>
@@ -125,12 +125,10 @@
         <scene sceneID="avW-d7-fRH">
             <objects>
                 <navigationController modalPresentationStyle="fullScreen" id="I7q-LR-uqO" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4oN-K3-fJu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="4oN-K3-fJu">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.32833557749999998" green="0.65142598439999999" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="tintColor" red="0.32833557749999998" green="0.65142598439999999" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" red="0.32833557749999998" green="0.65142598439999999" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -138,6 +136,9 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eOI-LE-Gi2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="UOp-ax-g9h" kind="relationship" relationship="rootViewController" id="b5Z-HP-aKV"/>
                     </connections>
